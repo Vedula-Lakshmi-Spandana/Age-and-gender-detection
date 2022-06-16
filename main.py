@@ -90,3 +90,4 @@ if uploaded_file is not None:
         label = "{},{}".format(gender, age)
         cv2.putText(frameFace,label,(bbox[0],bbox[1] - 10),cv2.FONT_HERSHEY_SIMPLEX,0.8,(0,255,255),2,cv2.LINE_AA)
         st.image(frameFace)
+
